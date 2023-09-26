@@ -1,0 +1,28 @@
+.myContainer {
+    height: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+  .container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .myGrid [class*="col"] {
+    outline: solid blue;
+  }
+  
+  /* selector de atributo
+      [atributo HTML]
+     */
+  
+  .myResponsiveGrid [class*="col"] {
+    outline: solid black;
+  }
+  
+  .myCarousel {
+    border: 20px solid blue;
+  }
